@@ -1,0 +1,36 @@
+{
+	"name": "sbwtech/sbw_campaigns",
+	"type": "elgg-plugin",
+	"description": "Crowdfunding campaigns",
+	"homepage": "http://socialbusinessworld.org",
+	"keywords": [
+		"elgg",
+		"plugin",
+		"campaigns",
+		"crowdfunding",
+		"donations"
+	],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Ismayil Khayredinov",
+			"email": "info@hypejunction.com"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0",
+		"bower-asset/moment": "~2.15",
+		"hypejunction/payments": "~2.0",
+		"hypejunction/countries": "~1.0",
+		"hypejunction/payments_paypal_api": "~1.0",
+		"hypejunction/payments_wire": "~1.0",
+		"hypejunction/payments_stripe": "~1.0",
+		"hypejunction/payments_sofort": "~1.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "classes/"
+		}
+	}
+}
+

@@ -1,0 +1,29 @@
+{
+	"name": "hypejunction/hypewall",
+	"version": "5.2.0",
+	"type": "elgg-plugin",
+	"description": "Rich status updates",
+	"homepage": "http://hypejunction.com",
+	"keywords": [
+		"elgg", "plugin", "wall", "posts", "embed", "link", "images"
+	],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Ismayil Khayredinov",
+			"email": "info@hypejunction.com"
+		}
+	],
+	"extra": {
+		"installer-name": "hypeWall"
+	},
+	"require": {
+		"composer/installers": "~1.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "classes/"
+		}
+	}
+}
+

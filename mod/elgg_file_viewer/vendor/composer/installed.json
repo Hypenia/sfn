@@ -1,0 +1,122 @@
+[
+    {
+        "name": "olaferlandsen/ffmpeg-php-class",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/olaferlandsen/ffmpeg-php-class.git",
+            "reference": "552109f11514d0bfb573c3c7780c473507f55e20"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/olaferlandsen/ffmpeg-php-class/zipball/552109f11514d0bfb573c3c7780c473507f55e20",
+            "reference": "552109f11514d0bfb573c3c7780c473507f55e20",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-07-15T20:29:00+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "FFmpeg": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "FFmpeg class to use with PHP without install FFmpeg-PHP extension",
+        "homepage": "https://github.com/olaferlandsen/ffmpeg-php-class",
+        "keywords": [
+            "ffmpeg",
+            "video"
+        ]
+    },
+    {
+        "name": "bower-asset/prism",
+        "version": "v1.6.0",
+        "version_normalized": "1.6.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/PrismJS/prism.git",
+            "reference": "22df673c472d52fbd1f9ab2656c7186fcbc47c0b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/PrismJS/prism/zipball/22df673c472d52fbd1f9ab2656c7186fcbc47c0b",
+            "reference": "22df673c472d52fbd1f9ab2656c7186fcbc47c0b",
+            "shasum": ""
+        },
+        "type": "bower-asset-library",
+        "extra": {
+            "bower-asset-main": [
+                "prism.js",
+                "themes/prism.css"
+            ],
+            "bower-asset-ignore": [
+                "**/.*",
+                "img",
+                "templates",
+                "tests",
+                "CNAME",
+                "*.html",
+                "style.css",
+                "favicon.png",
+                "logo.svg",
+                "download.js",
+                "prefixfree.min.js",
+                "utopia.js",
+                "code.js"
+            ]
+        },
+        "installation-source": "dist",
+        "license": [
+            "MIT"
+        ],
+        "description": "Lightweight, robust, elegant syntax highlighting. A spin-off project from Dabblet."
+    },
+    {
+        "name": "bower-asset/videojs",
+        "version": "v5.19.2",
+        "version_normalized": "5.19.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/videojs/video.js.git",
+            "reference": "d2d8f8f45f2051fb3a07130e09596a666eac00c2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/videojs/video.js/zipball/d2d8f8f45f2051fb3a07130e09596a666eac00c2",
+            "reference": "d2d8f8f45f2051fb3a07130e09596a666eac00c2",
+            "shasum": ""
+        },
+        "type": "bower-asset-library",
+        "extra": {
+            "bower-asset-main": [
+                "dist/video.js",
+                "dist/video-js.css"
+            ],
+            "bower-asset-ignore": [
+                "**/.*",
+                "node_modules",
+                "bower_components",
+                "test",
+                "tests",
+                "build"
+            ]
+        },
+        "installation-source": "dist",
+        "description": "An HTML5 and Flash video player with a common API and skin for both.",
+        "keywords": [
+            "flash",
+            "html5",
+            "player",
+            "video",
+            "videojs"
+        ]
+    }
+]

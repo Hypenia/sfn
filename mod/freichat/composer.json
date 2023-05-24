@@ -1,0 +1,16 @@
+{
+  "name": "codologic/freichat",
+  "description": "A scalable chat solution for engaging your users",
+  "type": "elgg-plugin",
+  "keywords": ["elgg", "plugin", "chat"],
+  "license": "GPL-3.0-only",
+  "support": {
+    "source": "https://github.com/evnix/freichat-integrations",
+    "issues": "https://codologic.com/forum/index.php?u=/category/freichat-related-discussions"
+  },
+  "require": {
+    "composer/installers": "^1.0.8",
+    "ext-curl": "*",
+    "ext-json": "*"
+  }
+}

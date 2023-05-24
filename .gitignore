@@ -7,8 +7,9 @@
 /cache
 
 # Don't check in third party code
-/node_modules
-/vendor
+# For now, dont ignore
+!/node_modules
+!/vendor
 
 # don't ignore bundled plugins
 !/mod/aalborg_theme/
@@ -47,6 +48,51 @@
 !/mod/uservalidationbyemail/
 !/mod/web_services/
 !/mod/zaudio/
+
+# don't ignore third-party plugins
+!/mod/access_grant/
+!/mod/amap_coverphoto/
+!/mod/ambercal_settings_transfer/
+!/mod/blog_tools/
+!/mod/captcha/
+!/mod/ckeditor_addons/
+!/mod/countries/
+!/mod/data_views/
+!/mod/elgg_ajax_register/
+!/mod/elgg_file_viewer/
+!/mod/elgg_tokeninput/
+!/mod/event_manager/
+!/mod/faq/
+!/mod/freichat/
+!/mod/group_tools/
+!/mod/html_email_handler/
+!/mod/hypeAttachments/
+!/mod/hypeDiscovery/
+!/mod/hypeDiscussions/
+!/mod/hypeDropzone/
+!/mod/hypeEmbed/
+!/mod/hypeInteractions/
+!/mod/hypeLists/
+!/mod/hypeMapsOpen/
+!/mod/hypeNotifications/
+!/mod/hypeScraper/
+!/mod/hypeWall/
+!/mod/l1/
+!/mod/mrdave_aalborg/
+!/mod/newsletter/
+!/mod/paul_override/
+!/mod/payments/
+!/mod/payments_paypal_api/
+!/mod/payments_wire/
+!/mod/profile_manager/
+!/mod/questions/
+!/mod/sbw_campaigns/
+!/mod/thewire_tools/
+!/mod/tidypics/
+!/mod/videos/
+!/mod/views_counter/
+!/mod/widget_manager/
+!/mod/widget_pack/
 
 # ignore IDE/hidden/testing/OS cache files
 .*

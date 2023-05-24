@@ -1,0 +1,22 @@
+.elgg-module.discovery-module-popup {
+  max-width: 200px;
+}
+
+.discovery-buttonbank {
+  text-align: center;
+}
+
+.discovery-buttonbank > li {
+  display: inline-block;
+  padding: 3px;
+}
+
+.elgg-menu-entity .webicon {
+  margin: 0;
+}
+
+.elgg-form-discovery-edit img {
+	max-width: 300px;
+	margin: 0 auto;
+	display: block;
+}

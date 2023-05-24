@@ -1,0 +1,434 @@
+.campaigns-filter .elgg-state-disabled > a {
+	cursor: not-allowed;
+}
+.campaigns-gallery {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: space-between;
+}
+.campaigns-gallery > li {
+	-webkit-flex: 0 1 33%;
+	-ms-flex: 0 1 33%;
+	flex: 0 1 33%;
+    padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.campaigns-sidebar .campaigns-gallery > li {
+	flex: 1 1 100%;
+	padding: 0;
+}
+.campaigns-card {
+	border: 1px solid #dcdcdc;
+}
+
+.campaigns-card img {
+    width: 100%;
+    height: auto;
+}
+
+.campaigns-card-head,
+.campaigns-card-body {
+	padding: 10px;
+}
+
+.campaigns-card-head .campaigns-status {
+    float: right;
+    font-size: 13px;
+    background: #f4f4f4;
+    padding: 3px 6px;
+    border-radius: 3px;
+	color: #666;
+}
+.campaigns-card-head .campaigns-status.campaigns-state-active {
+	background: #43AC6A;
+	color: #fff;
+}
+
+.campaigns-profile {
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+    flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+.campaigns-main {
+	-webkit-flex: 1 1 100%;
+	-ms-flex: 1 1 100%;
+	flex: 1 1 100%;
+}
+.campaigns-profile-layout-has-sidebar .campaigns-main {
+	-webkit-flex: 0 0 64%;
+	-ms-flex: 0 0 64%;
+	flex: 0 0 64%;
+}
+
+.campaigns-sidebar {
+	-webkit-flex: 0 0 35%;
+	-ms-flex: 0 0 35%;
+    flex: 0 0 35%;
+}
+
+.campaigns-profile-layout-has-filter .campaigns-sidebar {
+	margin-top: 30px;
+}
+.campaigns-main >.elgg-menu-filter {
+    margin: 0;
+}
+
+.campaigns-main > .elgg-menu-filter + .campaigns-main-content {
+    border-top: 0;
+}
+
+.campaigns-sidebar .elgg-image-block {
+    padding: 0;
+}
+
+.campaigns-main-content {
+    background: #fff;
+    border: 1px solid #dcdcdc;
+    padding: 15px;
+}
+
+.campaigns-profile-layout-modular .campaigns-main-content {
+    padding: 0;
+    background: none;
+    border: none;
+}
+
+.campaigns-main-content > .elgg-listing-full > .elgg-image-block {
+    padding: 0;
+}
+
+.campaigns-cover-video iframe {
+    max-width: 100%;
+}
+
+.campaigns-table select {
+    width: auto;
+}
+
+.campaigns-table tr > td,
+.campaigns-table tr > th {
+    width: auto;
+	vertical-align: middle
+}
+
+.campaigns-table tr > td:first-child {
+	width: auto;
+}
+
+.campaigns-table .elgg-text-help {
+    font-size: 12px;
+    line-height: normal;
+    font-style: italic;
+}
+
+.campaigns-give-item-minimimum-donation {
+    margin: 0 10px;
+    font-weight: bold;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+span.campaigns-give-item-stock {
+    font-size: 90%;
+    font-style: italic;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.campaigns-give-item-title {
+    font-size: 18px;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.campaigns-payment-methods img {
+	max-height: 16px;
+    display: inline;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.campaigns-stats,
+.campaigns-actions {
+    padding: 10px;
+}
+
+.campaigns-progress-container {
+    display: block;
+    height: 15px;
+    background: #ccc;
+    border-radius: 10px;
+    margin: 10px auto;
+    position: relative;
+	overflow: hidden;
+}
+
+.campaigns-progress-bar {
+    display: block;
+    height: 15px;
+    background: #43AC6A;
+    border-radius: 10px;
+	min-width: 1%;
+	max-width: 100%;
+}
+
+.campaigns-stats-counters > div {
+	display: inline-block;
+	padding: 5px 15px 5px 0;
+	font-size: 12px;
+}
+
+.campaigns-stats-counters > div > .campaigns-stats-counter {
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.elgg-form-campaigns-edit-about .elgg-fieldset-horizontal .elgg-field,
+.elgg-form-campaigns-edit-reward .elgg-fieldset-horizontal .elgg-field {
+    max-width: 32%;
+    vertical-align: top;
+}
+.elgg-form-campaigns-edit-about .elgg-fieldset-horizontal .elgg-field label {
+	display: block;
+}
+.campaigns-module,
+.campaigns-sidebar .elgg-no-results {
+    border: 1px solid #dcdcdc;
+    background: white;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+	margin-bottom: 2%;
+	padding: 10px;
+}
+
+.campaigns-cover-video {
+	margin-bottom: 2%;
+}
+
+.campaigns-sidebar .campaigns-rewards > li {
+	background: white;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+	margin-bottom: 2%;
+}
+
+.campaigns-data-item {
+	padding: 5px 20px;
+}
+.campaigns-data-item .elgg-icon {
+	color: inherit;
+	width: 20px;
+	line-height: 20px;
+	text-align: center;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+.campaigns-data-item .campaigns-data-item-value {
+	line-height: 20px;
+	vertical-align: middle;
+}
+
+.campaigns-card-head .elgg-menu {
+    float: right;
+}
+
+.elgg-menu-campaign-profile > li:not(:last-child) {
+    margin-right: 5px;
+}
+
+.elgg-menu-campaigns-about-rules > li {
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+.campaigns-data-item-value > ul,
+.campaigns-data-item-value > .clearfix {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.campaigns-cover-image img {
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.campaigns-module .elgg-menu-page .elgg-icon {
+    color: #333;
+    width: 30px;
+    text-align: center;
+    float: right;
+    vertical-align: middle;
+    line-height: 20px;
+}
+
+.campaigns-module .elgg-menu-page a {
+    padding: 5px 15px;
+    margin: 0;
+}
+
+.campaigns-module .elgg-menu-page a:hover {
+    background: #f2f2f2;
+    color: #333;
+}
+
+.campaigns-table td,
+.campaigns-table th {
+	padding: 5px 10px;
+}
+.campaigns-table tr:hover {
+	background: #f2f2f2;
+}
+
+.campaigns-profile-layout {
+    margin-top: 55px;
+}
+
+.campaigns-payment-methods .elgg-input-radios label {
+    font-weight: normal;
+    margin: 10px 0 0 10px;
+    display: block;
+    font-size: 18px;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.campaigns-payment-methods .elgg-input-radios img {
+    max-height: 20px;
+    margin-right: 10px;
+}
+
+.campaigns-payment-methods .elgg-input-radios input {
+    margin-right: 15px;
+}
+
+.campaigns-river-card {
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+    flex-wrap: nowrap;
+}
+@media screen and (max-width: 820px) {
+	.campaigns-river-card {
+		flex-wrap: wrap;
+	}
+}
+
+.campaigns-river-media {
+	-webkit-flex: 1 1 65%;
+	-ms-flex: 1 1 65%;
+    flex: 1 1 65%;
+}
+
+.campaigns-river-data {
+	-webkit-flex: 1 1 35%;
+	-ms-flex: 1 1 35%;
+    flex: 1 1 35%;
+}
+
+@media screen and (max-width: 820px) {
+	.campaigns-profile {
+		flex-wrap: wrap;
+	}
+
+	.campaigns-main {
+		-webkit-flex: 1 1 100%;
+		-ms-flex: 1 1 100%;
+		flex: 1 1 100%;
+	}
+
+	.campaigns-profile-layout-has-sidebar .campaigns-main {
+		-webkit-flex: 1 1 100%;
+		-ms-flex: 1 1 100%;
+		flex: 1 1 100%;
+	}
+
+	.campaigns-sidebar {
+		-webkit-flex: 1 1 100%;
+		-ms-flex: 1 1 100%;
+		flex: 1 1 100%;
+	}
+
+	.campaigns-gallery > li {
+		-webkit-flex: 1 1 100%;
+		-ms-flex: 1 1 100%;
+		flex: 1 1 100%;
+	}
+
+	.campaigns-profile-layout .elgg-main {
+		padding: 10px;
+	}
+}
+
+.campaigns-info-window {
+	text-align: center;
+}
+
+.campaigns-info-window h3 {
+    font-size: 16px;
+    margin: 5px auto;
+}
+
+.campaigns-info-window .elgg-gallery {
+    margin: 10px 0;
+}
+
+.elgg-item-object-campaign_donation .campaigns-donation-amount {
+    float: right;
+}
+
+.elgg-item-object-campaign_donation blockquote {
+    margin: 0;
+}
+
+.elgg-item-object-campaign_donation blockquote .elgg-output {
+    margin: 0;
+}
+
+.campaigns-billing-as-shipping {
+    display: block!important;
+    margin: 10px 0 25px !important;
+}
+
+.campaigns-main-content .elgg-tabs-component > .elgg-body {
+    background: #fff;
+    border: 1px solid #dcdcdc;
+    border-top: 0;
+    padding: 16px;
+}
+
+.campaigns-main-content .elgg-tabs-component > .elgg-head {
+    margin:0
+
+}
+
+.campaigns-main-content .elgg-tabs {
+    margin: 0;
+}
+
+.elgg-menu.elgg-menu-campaign-actions {
+    text-align: center;
+}
+
+.elgg-menu.elgg-menu-campaign-actions > li + li {
+    margin-left: 8px;
+}
+
+.elgg-menu.elgg-menu-campaign-actions > li .elgg-icon {
+    color: inherit;
+    font-size: inherit;
+    margin-right: 8px;
+}
+
+#campaigns-page-start {
+    position: absolute;
+    top: -300px;
+}

@@ -1,0 +1,8 @@
+.elgg-form .cke { clear: right; }
+.elgg-form .cke_bottom .cke_wordcount { float: left; }
+.elgg-form .cke_bottom .cke_path { float: right; }
+.elgg-form .cke_top, .elgg-form .cke_bottom { background: none !important; border: none !important; }
+.elgg-form .cke_chrome { border: 1px solid #dcdcdc !important; box-shadow: none !important; }
+.elgg-form .cke_toolgroup { background: none !important; border: none !important; }
+.elgg-form .cke_button { box-shadow: none !important; border: 1px solid transparent !important; }
+.elgg-form .cke_button_on, .elgg-form .cke_button:hover { border: 1px solid #dcdcdc !important; background: #dcdcdc !important; }

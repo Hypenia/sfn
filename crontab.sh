@@ -8,7 +8,7 @@
 #
 
 # Location of your site (don't forget the trailing slash!)
-ELGG='https://spiritualfamily.net/'
+ELGG='http://localhost/spiritualfamily.net/'
 
 # Location of lwp-request
 LWPR='/usr/bin/lwp-request'

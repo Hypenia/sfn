@@ -1,0 +1,27 @@
+<?php
+
+return array(
+	'admin:views_counter' => "Compteur de vues",
+	'admin:views_counter:stats' => "Statistiques",
+	'admin:views_counter:entities' => "Statistiques des entités",
+	'admin:statistics:views_counter' => "Compteur de vues",
+	'views_counter:stats:none' => "Aucune vue pour cette entité",
+	'views_counter' => 'Compteur de vues',
+	'views_counter:admin_page' => "Administration du compteur de vues",
+	'views_counter:add_views_counter' => "Ajouter un compteur de vues à :",
+	'views_counter:display_views_counter' => "Afficher le compteur de vues",
+	'views_counter:doc' => "Documentation du compteur de vues",
+	'views_counter:first_view' => "Premier affichage",
+	'views_counter:guid' => "GUID",
+	'views_counter:id' => "ID",
+	'views_counter:name_or_title' => "Nom ou Titre",
+	'views_counter:no_float' => "Pas de float",
+	'views_counter:not_loggedin' => "Non connecté",
+	'views_counter:see_entities' => "Voir les entités",
+	'views_counter:select_type' => "Sélectionner un type : ",
+	'views_counter:title_or_name' => "Titre ou nom",
+	'views_counter:user_name' => "Nom du membre",
+	'views_counter:views' => "Vues",
+	'views_counter:views_by_user' => "Vues<br />par ce membre",
+	'views_counter:views_statistics' => "Statistiques d'affichage",
+);

@@ -1,0 +1,50 @@
+Version history
+===============
+
+5.0.3 (2017-09-06):
+
+- several small chores/fixes
+
+5.0.2 (2017-09-06):
+
+- several small chores/fixes
+
+5.0.1 (2017-03-24):
+
+- fixed: only show site announcements in default page shell
+
+5.0 (2017-02-27):
+
+- added: plugin setting to cleanup expired announcements
+- changed: increased minimal Elgg version requirement to 2.3
+- changed: moved css to css-file
+- changed: split javascript into view and amd module
+
+4.0 (2016-05-26):
+
+- changed: increased Elgg requirement to 2.0
+- fixed: default icon uses incorrect icon url
+
+3.0 (2016-01-15):
+
+- changed: improved default layout
+- fixed: call to deprecated jQuery function
+- fixed: elgg requirements
+- fixed: input/date layout on older versions of Elgg
+
+2.1 (2015-07-08):
+
+- added: site announcers
+- added: composer support
+- added: extra class added to imageblock of each announcement for extra styling options #1
+- added: page menu item on admin side for backwards compatibility
+- changed: management moved to frontend
+- fixed: comments shouldn't be allowed on announcements
+
+2.0 (2014-06-14):
+
+- changes for Elgg 1.9
+
+1.0:
+
+- initial release 

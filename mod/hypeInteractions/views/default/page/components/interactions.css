@@ -1,0 +1,36 @@
+.interactions.interactions-has-active-tab > .interactions-component { border: 1px solid #dddddd; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
+.interactions.interactions-has-active-tab > .interactions-component.elgg-ajax-loader { padding: 30px; margin: 0; }
+
+.interactions-controls { *zoom: 1; margin-top: 10px; height: 29px; }
+.interactions-controls:before, .interactions-controls:after { content: " "; display: table; }
+.interactions-controls:after { clear: both; }
+
+.elgg-menu-interactions > li { margin: 0 3px 0 0; font-size: 14px; }
+.elgg-menu-interactions > li a { padding: 5px 10px; line-height: 18px; display: inline-block; }
+.elgg-menu-interactions > li.elgg-state-selected { border-width: 1px 1px 0 1px; border-style: solid; border-color: #dddddd; -moz-border-radius-topright: 3px; -webkit-border-top-right-radius: 3px; border-top-right-radius: 3px; -moz-border-radius-topleft: 3px; -webkit-border-top-left-radius: 3px; border-top-left-radius: 3px; }
+.elgg-menu-interactions > li.elgg-state-selected a { background: #ffffff; top: 1px; }
+
+.interactions-icon { font-size: 18px; line-height: 18px; vertical-align: middle; }
+
+.interactions-badge-indicator { margin-left: 5px; font-size: 14px; line-height: 18px; vertical-align: middle; }
+
+.interactions-component { display: none; background-color: #ffffff; }
+.interactions-component.elgg-state-selected { display: block; }
+.interactions-component .elgg-list { margin: 0; }
+.interactions-component .elgg-list > li { padding: 10px; }
+.interactions-component .elgg-no-results { padding: 10px; margin: 0; }
+.interactions-component .attachments-toggler { float: none; }
+.interactions-component .elgg-pagination-infinite { margin: 0 auto; padding: 10px; border-bottom: 1px solid #dddddd; }
+.interactions-component .elgg-pagination-infinite .elgg-before, .interactions-component .elgg-pagination-infinite .elgg-after { border: none; padding: 0; }
+.interactions-component .elgg-pagination-infinite .elgg-before:after, .interactions-component .elgg-pagination-infinite .elgg-before:before, .interactions-component .elgg-pagination-infinite .elgg-after:after, .interactions-component .elgg-pagination-infinite .elgg-after:before { content: none; }
+.interactions-component .elgg-form { border: none; padding: 10px; }
+.interactions-component .elgg-form .elgg-foot { margin-top: 5px; }
+.interactions-component .elgg-form input[type="submit"] { margin: 0; }
+.interactions-component .elgg-form + * { border-top: 1px solid #dddddd; }
+
+.interactions-image-block { padding: 0; display: -webkit-flex; display: flex; -webkit-align-items: flex-start; align-items: flex-start; }
+.interactions-image-block > .elgg-image { -webkit-order: 1; order: 1; -webkit-flex: 0 0 30px; flex: 0 0 30px; margin-right: 10px; }
+.interactions-image-block > .elgg-image-alt { -webkit-order: 3; order: 3; -webkit-flex: 0 0 auto; flex: 0 0 auto; margin-left: 10px; }
+.interactions-image-block > .elgg-body { -webkit-order: 2; order: 2; -webkit-flex: 1 1 auto; flex: 1 1 auto; }
+
+.interactions-component .elgg-box { margin: 10px; padding: 10px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }

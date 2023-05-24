@@ -1,0 +1,231 @@
+[
+    {
+        "name": "composer/installers",
+        "version": "v1.3.0",
+        "version_normalized": "1.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/composer/installers.git",
+            "reference": "79ad876c7498c0bbfe7eed065b8651c93bfd6045"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/composer/installers/zipball/79ad876c7498c0bbfe7eed065b8651c93bfd6045",
+            "reference": "79ad876c7498c0bbfe7eed065b8651c93bfd6045",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.0"
+        },
+        "replace": {
+            "roundcube/plugin-installer": "*",
+            "shama/baton": "*"
+        },
+        "require-dev": {
+            "composer/composer": "1.0.*@dev",
+            "phpunit/phpunit": "4.1.*"
+        },
+        "time": "2017-04-24T06:37:16+00:00",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "Composer\\Installers\\Plugin",
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Composer\\Installers\\": "src/Composer/Installers"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kyle Robinson Young",
+                "email": "kyle@dontkry.com",
+                "homepage": "https://github.com/shama"
+            }
+        ],
+        "description": "A multi-framework Composer library installer",
+        "homepage": "https://composer.github.io/installers/",
+        "keywords": [
+            "Craft",
+            "Dolibarr",
+            "Eliasis",
+            "Hurad",
+            "ImageCMS",
+            "Kanboard",
+            "MODX Evo",
+            "Mautic",
+            "Maya",
+            "OXID",
+            "Plentymarkets",
+            "Porto",
+            "RadPHP",
+            "SMF",
+            "Thelia",
+            "WolfCMS",
+            "agl",
+            "aimeos",
+            "annotatecms",
+            "attogram",
+            "bitrix",
+            "cakephp",
+            "chef",
+            "cockpit",
+            "codeigniter",
+            "concrete5",
+            "croogo",
+            "dokuwiki",
+            "drupal",
+            "elgg",
+            "expressionengine",
+            "fuelphp",
+            "grav",
+            "installer",
+            "itop",
+            "joomla",
+            "kohana",
+            "laravel",
+            "lavalite",
+            "lithium",
+            "magento",
+            "mako",
+            "mediawiki",
+            "modulework",
+            "moodle",
+            "phpbb",
+            "piwik",
+            "ppi",
+            "puppet",
+            "reindex",
+            "roundcube",
+            "shopware",
+            "silverstripe",
+            "sydes",
+            "symfony",
+            "typo3",
+            "wordpress",
+            "yawik",
+            "zend",
+            "zikula"
+        ]
+    },
+    {
+        "name": "bower-asset/leaflet.awesome-markers",
+        "version": "v2.0.2",
+        "version_normalized": "2.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/lvoogdt/Leaflet.awesome-markers.git",
+            "reference": "bfac1eb6f7896072d690bde57c1fb5002961a99a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/lvoogdt/Leaflet.awesome-markers/zipball/bfac1eb6f7896072d690bde57c1fb5002961a99a",
+            "reference": "bfac1eb6f7896072d690bde57c1fb5002961a99a",
+            "shasum": ""
+        },
+        "type": "bower-asset-library",
+        "extra": {
+            "bower-asset-main": [
+                "dist/leaflet.awesome-markers.css",
+                "dist/leaflet.awesome-markers.js"
+            ],
+            "bower-asset-ignore": [
+                "**/.*",
+                "node_modules",
+                "bower_components",
+                "test",
+                "tests"
+            ]
+        },
+        "installation-source": "dist",
+        "license": [
+            "MIT"
+        ],
+        "description": "Colorful iconic & retina-proof markers for Leaflet, based on the Glyphicons / Font-Awesome icons"
+    },
+    {
+        "name": "bower-asset/leaflet",
+        "version": "v1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Leaflet/Leaflet.git",
+            "reference": "a3a7e045229898137bb9a3af0a1407e409e06c4f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Leaflet/Leaflet/zipball/a3a7e045229898137bb9a3af0a1407e409e06c4f",
+            "reference": "a3a7e045229898137bb9a3af0a1407e409e06c4f",
+            "shasum": ""
+        },
+        "type": "bower-asset-library",
+        "extra": {
+            "bower-asset-main": [
+                "dist/leaflet.css",
+                "dist/leaflet-src.js"
+            ],
+            "bower-asset-ignore": [
+                ".*",
+                "CHANGELOG.json",
+                "FAQ.md",
+                "debug",
+                "spec",
+                "src",
+                "build"
+            ]
+        },
+        "installation-source": "dist",
+        "license": [
+            "BSD-2-Clause"
+        ],
+        "description": "JavaScript library for mobile-friendly interactive maps"
+    },
+    {
+        "name": "bower-asset/leaflet.markercluster",
+        "version": "v1.0.6",
+        "version_normalized": "1.0.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Leaflet/Leaflet.markercluster.git",
+            "reference": "54f32574a27521610cc2b347b13013c3dd5a4dcf"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Leaflet/Leaflet.markercluster/zipball/54f32574a27521610cc2b347b13013c3dd5a4dcf",
+            "reference": "54f32574a27521610cc2b347b13013c3dd5a4dcf",
+            "shasum": ""
+        },
+        "require": {
+            "bower-asset/leaflet": ">=1.0.3"
+        },
+        "type": "bower-asset-library",
+        "extra": {
+            "bower-asset-main": [
+                "dist/leaflet.markercluster-src.js",
+                "dist/MarkerCluster.css",
+                "dist/MarkerCluster.Default.css"
+            ],
+            "bower-asset-ignore": [
+                "**/.*",
+                "node_modules",
+                "bower_components",
+                "example",
+                "spec",
+                "test",
+                "tests"
+            ]
+        },
+        "installation-source": "dist",
+        "license": [
+            "MIT"
+        ],
+        "description": "Marker Clustering plugin for Leaflet."
+    }
+]

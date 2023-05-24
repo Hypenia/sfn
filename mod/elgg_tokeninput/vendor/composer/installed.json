@@ -1,0 +1,20 @@
+[
+    {
+        "name": "bower-asset/jquery-tokeninput",
+        "version": "v1.7.0",
+        "version_normalized": "1.7.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/loopj/jquery-tokeninput.git",
+            "reference": "aefac0bcff768fa93b08ace5e23635855e6aec59"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/loopj/jquery-tokeninput/zipball/aefac0bcff768fa93b08ace5e23635855e6aec59",
+            "reference": "aefac0bcff768fa93b08ace5e23635855e6aec59",
+            "shasum": ""
+        },
+        "type": "bower-asset-library",
+        "installation-source": "dist"
+    }
+]
